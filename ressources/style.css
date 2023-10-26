@@ -145,3 +145,49 @@ header h1 {
     color: #666;
     line-height: 1.6rem;
 }
+
+.surfcamp-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    height: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intermediate, .spotguiding, .unterkunft {
+    width: 32%;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intermediate {
+    background-image: url(./images/index/Intermediate-Surfcamp-Block-min-e1673359846108.jpg);
+}
+
+.spotguiding {
+    background-image: url(./images/index/Banner-Foto-min-1.jpg);
+}
+
+.unterkunft {
+    background-image: url(./images/index/Pipe.jpg);
+}
+
+.surfcamp-boxes h3 {
+    position: relative;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.surfcamp-boxes h3::before {
+    content: url(./images/index/icon-wavy.svg);
+    display: block;
+}
+
+
