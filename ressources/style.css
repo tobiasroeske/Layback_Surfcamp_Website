@@ -84,12 +84,12 @@ header img {
 
 header h1 {
     position: absolute;
+    left: 5rem;
     font-family: 'Poppins', sans-serif;
     font-size: 2.75rem;
     text-transform: uppercase;
     color:#ffffff;
     letter-spacing: 3.52px;
-    line-height: 50.6px;
     margin-bottom: 5.5rem;
 }
 
@@ -113,17 +113,17 @@ header h1 {
     z-index: 2;
 }
 
-.intro {
+.intro-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    margin-left: 18rem;
-    margin-right: 18rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.intro h2:before {
+.intro-container h2:before {
     content: "Layback Surfcamp";
     font-family: "Poppins", "Helvetica", sans-serif;
     display: block;
@@ -133,13 +133,13 @@ header h1 {
     text-transform: uppercase;
 } 
 
-h2 {
+.intro-container h2 {
     font-family: 'PT Serif', serif;
     font-size: 2.75rem;
     font-weight: 700;
 }
 
-p {
+.intro-container p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.125rem;
     color: #666;
