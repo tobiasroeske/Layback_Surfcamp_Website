@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Navbar browser version-->
-    <nav>
+    <nav class="browser">
         <ul>
             <li><a href="index.html"><img src="./ressources/images/index/logo.png" alt=""></a></li>
             <li class="navbar"><a href="index.html">HOME</a></li>
@@ -24,132 +24,179 @@
             <li class="navbar english-icon"><img src="./ressources/images/index/united-kingdom-flag-icon.png" alt=""></li>
          </ul>
     </nav>
+
+    <!-- Navbar Mobile Version-->
+    <nav class="mobile">
+        <a class="mobile-logo" href="index.html"><img src="./ressources/images/index/logo.png" alt=""></a>
+        <button class="dropdown-btn" id="dropdown-btn"><img src="./ressources/images/list-26.svg" alt=""></button>
+    </nav>
+
+    <div class="dropdown-list" id="dropdown-list">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li id="surfcamps" ><a href="#">SURFCAMPS</a></li>
+            <div class="camp-options" id="camp-options">
+                <li><a href="#">INTERMEDIATE SURFCAMP</a></li>
+                <li><a href="#">SPOTGUIDING SURFCAMP</a></li>
+            </div>
+            <li><a href="#">SURFCOACHING & HOSTEL</a></li>
+            <li><a href="#">CAMP & TEAM</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ANREISE % CONTAKT</a></li>
+            <li class="english-icon"><a href=""><img src="./ressources/images/index/united-kingdom-flag-icon.png" alt=""></a></li>
+        </ul>
+    </div>
     <!-- Header browser version-->
-
-    <header>
-        <div class="icons">
-            <a href="#"><img src="./ressources/images/index/cc59e60637d6a7f3e28c9a8a8216d77b.png" alt=""></a>
-            <a href="#"><img src="./ressources/images/index/b8d69bfad379fbc0c7163b08e2928f67.jpg" alt=""></a>
-        </div>
-        <img src="./ressources/images/index/home-cover.jpg" alt="">
-        <h1>Layback Intermediate Surfcamp</h1>
-    </header>
-
-    <!-- Einleitung -->
-
-    <main>
-        <article>
-            <div class="intro-container">
-                <h2>Europas erstes Intermediate Surfcamp für fortgeschrittene Surfer</h2>
-                <p>Du hast bereits einige Erfahrungen im Surfen gemacht und möchtest deine Surftechnik 
-                    auf das nächste Level bringen? Mit unserem Intermediate Surfcamp in Galicien wirst 
-                    Du schon bald keine Probleme mehr haben, einen sauberen Bottom Turn oder Cutback 
-                    in der Welle zu ziehen. In kleinen Gruppen, inklusive Videoanalyse und Bewegungstheorie, 
-                    bringen Dich unsere erfahrenen Surfcoaches schnell an Dein neues Ziel – und das in einer 
-                    der schönsten Regionen Nordspaniens!</p>
+    <div class="content">
+        <header>
+            <div class="icons">
+                <a href="#"><img src="./ressources/images/index/cc59e60637d6a7f3e28c9a8a8216d77b.png" alt=""></a>
+                <a href="#"><img src="./ressources/images/index/b8d69bfad379fbc0c7163b08e2928f67.jpg" alt=""></a>
             </div>
-        </article>
-
-        <!-- Surfcamp boxes-->
-        <div class="surfcamp-boxes">
-            <div class="intermediate">
-                <h3>Intermediate Surfcamp</h3>
+            <img src="./ressources/images/index/home-cover.jpg" alt="">
+            <h1>Layback Intermediate Surfcamp</h1>
+        </header>
+    
+        <!-- Einleitung -->
+    
+        <main>
+            <article>
+                <div class="intro-container">
+                    <h2>Europas erstes Intermediate Surfcamp für fortgeschrittene Surfer</h2>
+                    <p>Du hast bereits einige Erfahrungen im Surfen gemacht und möchtest deine Surftechnik 
+                        auf das nächste Level bringen? Mit unserem Intermediate Surfcamp in Galicien wirst 
+                        Du schon bald keine Probleme mehr haben, einen sauberen Bottom Turn oder Cutback 
+                        in der Welle zu ziehen. In kleinen Gruppen, inklusive Videoanalyse und Bewegungstheorie, 
+                        bringen Dich unsere erfahrenen Surfcoaches schnell an Dein neues Ziel – und das in einer 
+                        der schönsten Regionen Nordspaniens!</p>
+                </div>
+            </article>
+    
+            <!-- Surfcamp boxes-->
+            <div class="surfcamp-boxes">
+                <div class="intermediate">
+                    <h3>Intermediate Surfcamp</h3>
+                </div>
+                <div class="spotguiding">
+                    <h3>Spotguiding</h3>
+                </div>
+                <div class="unterkunft">
+                    <h3>Unterkunft</h3>
+                </div>
+    
             </div>
-            <div class="spotguiding">
-                <h3>Spotguiding</h3>
-            </div>
-            <div class="unterkunft">
-                <h3>Unterkunft</h3>
-            </div>
 
-        </div>
-
-        <!-- What we offer -->
-        <div class="offer-container">
-            <h4>Wir bieten ...</h4>
-            <ul>
-                <li>Europas erstes speziell auf fortgeschrittene Surfer ausgelegtes Surfcamp</li>
-                <li>eine Vielzahl an leeren, einsamen Stränden (optimal, um eure Surfskills gezielt zu verfeinern)</li>
-                <li>ein auf Deine bisherigen Erfahrungen zugeschnittenes Surfcoaching, mit täglicher Videoanalyse, Bewegungstheorie und Surfskatesessions</li>
-                <li>kleine Gruppen (max. 5 Personen auf einen Coach) mit intensiver Betreuung</li>
-                <li>professionelle und erfahrene ISA/ASI lizensierte Surfcoaches</li>
-                <li>Spotguiding und Transfer zu mehr als acht verschiedenen Buchten</li>
-                <li>konstante Surfbedingungen und leere Line-Ups während der gesamten Saison in einer der schönsten Regionen Nordspaniens</li>
-                <li>ein schönes Camphaus mit familiärer Atmosphäre in dem kleinen Strandort Valdoviño in Galicien</li>
-                <li>zu Fuß erreichbarer Hausstrand</li>
-                <li>kostenlose Nutzung der Surfboards und Wetsuits 24/7</li>
-                <li>eine große Terrasse mit BBQ-Grill</li>
-                <li>Gemütliches Wohnzimmer mit Pelletofen zum Aufwärmen nach den Sessions</li>
-                <li>großer Garten mit Lagerfeuerstelle und Hängematte, um den Tag gemütlich ausklingen zu lassen</li>
-                <li>große und helle Zwei- und Mehrbettzimmer</li>
-                <li>verschiedene Chill-Out Areas zum Entspannen</li>
-                <li>üppiges und gesundes Frühstück</li>
-                <li>Saison vom 1. April bis zum 23. Oktober 2023</li>
-            </ul>
-        </div>
-
-        <div class="button">
-            <button>Jetzt anfragen</button>
-        </div>
-<!-- Blog container-->
-        <div class="blog-container">
-            <div class="blog-image" id="blog-image"><a href="#"><img src="./ressources/images/index/IMG_5929-min.jpg" alt=""></a></div>
-            <div class="article-discription">
-                <h5>8 Gründe, warum Du ein Intermediate Surfcoaching absolvieren solltest</h5>
-                <p>Du hast schon einige Surf-Erfahrung gesammelt und fragst Dich jetzt: 
-                    Sollte ich wirklich an einem 
-                    Intermediate Surfcoaching teilnehmen? Hier erfährst Du, warum das Sinn macht…</p>
-                    <a id="blog-link" href="#">Mehr Erfahren</a>
+            <div class="surfcamp-boxes-mobile">
+                <div class="intermediate">
+                    <h3>Intermediate Surfcamp</h3>
+                </div>
+                <div class="spotguiding">
+                    <h3>Spotguiding</h3>
+                </div>
+                <div class="unterkunft">
+                    <h3>Unterkunft</h3>
+                </div>
             </div>
-        </div>
-        <div class="surf-with-friends">
-            <h4>Surf with friends</h4>
-            <p id="paragraf">
-                Das ist unsere Philosophie und so sollte es in einem Surfcamp auch sein. Wir (eure Surfcoaches) 
-                leben mit euch unter einem Dach und stehen euch jederzeit zur Seite – so könnt ihr so schnell wie
-                 möglich Fortschritte bei euren Surfskills machen und euer Ziel mit größtmöglichsten Spaß schnell 
-                erreichen. Unser schönes familiäres Camphaus in dem kleinen Strandort Valdoviño in Galicien liegt 
-                fernab vom Massen- und Surftourismus und bietet eine Vielzahl an verschiedenen Buchten mit
-                 hervorragenden Wellen und leeren Line-Ups. Mit unserem Spotguiding bringen wir euch jeden Tag 
-                 zu dem Strand, an dem ihr die meisten Fortschritte machen werdet. Und falls ihr nach den Sessions 
-                 immer noch nicht genug habt, könnt ihr an unserem Haustrand in Valdoviño eure letzten Energiereserven 
-                 verbrauchen oder die Füße gemütlich im Camp oder in unserem großen Garten hochlegen.
-            </p>
-        </div>
-        <!-- Slider -->
-        <!-- If you add photos or you remove photos always keep the order of images in the images array -->
-        <div class="slider-container">
-            <img class="arrow-left" id="arrow-left" src="./ressources/images/index/slider/arrow-left.jpg" alt="">
-            <img class="slider-img img-1" id="img-1" src="./ressources/images/index/slider/DJI_0846-min.jpg" alt="">
-            <img class="slider-img img-2" id="img-2" src="./ressources/images/index/slider/IMG_1640-min.jpg" alt="">
-            <img class="slider-img img-3" id="img-3" src="./ressources/images/index/slider/IMG_1856-min.jpg" alt="">
-            <img class="slider-img img-4" id="img-4" src="./ressources/images/index/slider/IMG_3456-min.jpg" alt="">
-            <img class="slider-img img-5" id="img-5" src="./ressources/images/index/slider/IMG_3551-min.jpg" alt="">
-            <img class="slider-img img-6" id="img-6" src="./ressources/images/index/slider/IMG_5298-min.jpg" alt="">
-            <img class="slider-img img-7" id="img-7" src="./ressources/images/index/slider/IMG_5929-min.jpg" alt="">
-            <img class="slider-img img-8" id="img-8" src="./ressources/images/index/slider/IMG_8545-min.jpg" alt="">
-            <img class="slider-img img-9" id="img-9" src="./ressources/images/index/slider/PHOTO-2022-06-05-11-39-33-min.jpg" alt="">
-            <img class="slider-img img-10" id="img-10" src="./ressources/images/index/slider/PHOTO-2022-06-05-11-39-34-min.jpg" alt="">
-            <img class="slider-img img-11" id="img-11" src="./ressources/images/index/slider/videoanalyse.jpg" alt="">
-            <img class="arrow-right" id="arrow-right" class="arrow-right" id="arrow-right" src="./ressources/images/index/slider/arrow-right.jpeg" alt="">
-        </div>
-            <!-- CAMP and Team-->
-        <div class="team-container">
-            <h4>Für uns ist Surfen nicht nur eine Sportart.</h4>
-            <p>Surfen ist eine Leidenschaft, Surfen ist Freundschaft, Surfen ist 
-                Freiheit und Surfen kann Dein Leben völlig auf den Kopf stellen. 
-                Dir geht es ähnlich? Dann komm in unser Intermediate Surfcamp in 
-                Nordspanien und genieße einen Urlaub voll mit guten Wellen, 
-                traumhaften Stränden, 
-                netten neuen Leuten und einer Menge Spaß.</p>
-            <button>Mehr zu Camp & Team</button>
-        </div>
-    </main>
-    <footer class="footer">
-        <a href="#">Datenschutzerklärung</a>
-        <a href="#">Impressum</a>
-        <p>© Layback 2023</p>
-    </footer>
+    
+            <!-- What we offer -->
+            <div class="offer-container">
+                <h4>Wir bieten ...</h4>
+                <ul>
+                    <li>Europas erstes speziell auf fortgeschrittene Surfer ausgelegtes Surfcamp</li>
+                    <li>eine Vielzahl an leeren, einsamen Stränden (optimal, um eure Surfskills gezielt zu verfeinern)</li>
+                    <li>ein auf Deine bisherigen Erfahrungen zugeschnittenes Surfcoaching, mit täglicher Videoanalyse, Bewegungstheorie und Surfskatesessions</li>
+                    <li>kleine Gruppen (max. 5 Personen auf einen Coach) mit intensiver Betreuung</li>
+                    <li>professionelle und erfahrene ISA/ASI lizensierte Surfcoaches</li>
+                    <li>Spotguiding und Transfer zu mehr als acht verschiedenen Buchten</li>
+                    <li>konstante Surfbedingungen und leere Line-Ups während der gesamten Saison in einer der schönsten Regionen Nordspaniens</li>
+                    <li>ein schönes Camphaus mit familiärer Atmosphäre in dem kleinen Strandort Valdoviño in Galicien</li>
+                    <li>zu Fuß erreichbarer Hausstrand</li>
+                    <li>kostenlose Nutzung der Surfboards und Wetsuits 24/7</li>
+                    <li>eine große Terrasse mit BBQ-Grill</li>
+                    <li>Gemütliches Wohnzimmer mit Pelletofen zum Aufwärmen nach den Sessions</li>
+                    <li>großer Garten mit Lagerfeuerstelle und Hängematte, um den Tag gemütlich ausklingen zu lassen</li>
+                    <li>große und helle Zwei- und Mehrbettzimmer</li>
+                    <li>verschiedene Chill-Out Areas zum Entspannen</li>
+                    <li>üppiges und gesundes Frühstück</li>
+                    <li>Saison vom 1. April bis zum 23. Oktober 2023</li>
+                </ul>
+            </div>
+    
+            <div class="button">
+                <button>Jetzt anfragen</button>
+            </div>
+    <!-- Blog container-->
+            <div class="blog-container">
+                <div class="blog-image" id="blog-image"><a href="#"><img src="./ressources/images/index/IMG_5929-min.jpg" alt=""></a></div>
+                <div class="article-discription">
+                    <h5>8 Gründe, warum Du ein Intermediate Surfcoaching absolvieren solltest</h5>
+                    <p>Du hast schon einige Surf-Erfahrung gesammelt und fragst Dich jetzt: 
+                        Sollte ich wirklich an einem 
+                        Intermediate Surfcoaching teilnehmen? Hier erfährst Du, warum das Sinn macht…</p>
+                        <a id="blog-link" href="#">Mehr Erfahren</a>
+                </div>
+            </div>
+            
+            <div class="blog-mobile">
+                <div class="blog-image" id="blog-image"><a href="#"><img src="./ressources/images/index/IMG_5929-min.jpg" alt=""></a></div>
+                <div class="article-discription">
+                    <h5>8 Gründe, warum Du ein Intermediate Surfcoaching absolvieren solltest</h5>
+                    <p>Du hast schon einige Surf-Erfahrung gesammelt und fragst Dich jetzt: 
+                        Sollte ich wirklich an einem 
+                        Intermediate Surfcoaching teilnehmen? Hier erfährst Du, warum das Sinn macht…</p>
+                        <a id="blog-link" href="#">Mehr Erfahren</a>
+                </div>
+            </div>
+            <div class="surf-with-friends">
+                <h4>Surf with friends</h4>
+                <p id="paragraf">
+                    Das ist unsere Philosophie und so sollte es in einem Surfcamp auch sein. Wir (eure Surfcoaches) 
+                    leben mit euch unter einem Dach und stehen euch jederzeit zur Seite – so könnt ihr so schnell wie
+                     möglich Fortschritte bei euren Surfskills machen und euer Ziel mit größtmöglichsten Spaß schnell 
+                    erreichen. Unser schönes familiäres Camphaus in dem kleinen Strandort Valdoviño in Galicien liegt 
+                    fernab vom Massen- und Surftourismus und bietet eine Vielzahl an verschiedenen Buchten mit
+                     hervorragenden Wellen und leeren Line-Ups. Mit unserem Spotguiding bringen wir euch jeden Tag 
+                     zu dem Strand, an dem ihr die meisten Fortschritte machen werdet. Und falls ihr nach den Sessions 
+                     immer noch nicht genug habt, könnt ihr an unserem Haustrand in Valdoviño eure letzten Energiereserven 
+                     verbrauchen oder die Füße gemütlich im Camp oder in unserem großen Garten hochlegen.
+                </p>
+            </div>
+            <!-- Slider -->
+            <!-- If you add photos or you remove photos always keep the order of images in the images array -->
+            <div class="slider-container">
+                <img class="arrow-left" id="arrow-left" src="./ressources/images/index/slider/arrow-left.jpg" alt="">
+                <img class="slider-img img-1" id="img-1" src="./ressources/images/index/slider/DJI_0846-min.jpg" alt="">
+                <img class="slider-img img-2" id="img-2" src="./ressources/images/index/slider/IMG_1640-min.jpg" alt="">
+                <img class="slider-img img-3" id="img-3" src="./ressources/images/index/slider/IMG_1856-min.jpg" alt="">
+                <img class="slider-img img-4" id="img-4" src="./ressources/images/index/slider/IMG_3456-min.jpg" alt="">
+                <img class="slider-img img-5" id="img-5" src="./ressources/images/index/slider/IMG_3551-min.jpg" alt="">
+                <img class="slider-img img-6" id="img-6" src="./ressources/images/index/slider/IMG_5298-min.jpg" alt="">
+                <img class="slider-img img-7" id="img-7" src="./ressources/images/index/slider/IMG_5929-min.jpg" alt="">
+                <img class="slider-img img-8" id="img-8" src="./ressources/images/index/slider/IMG_8545-min.jpg" alt="">
+                <img class="slider-img img-9" id="img-9" src="./ressources/images/index/slider/PHOTO-2022-06-05-11-39-33-min.jpg" alt="">
+                <img class="slider-img img-10" id="img-10" src="./ressources/images/index/slider/PHOTO-2022-06-05-11-39-34-min.jpg" alt="">
+                <img class="slider-img img-11" id="img-11" src="./ressources/images/index/slider/videoanalyse.jpg" alt="">
+                <img class="arrow-right" id="arrow-right" class="arrow-right" id="arrow-right" src="./ressources/images/index/slider/arrow-right.jpeg" alt="">
+            </div>
+                <!-- CAMP and Team-->
+            <div class="team-container">
+                <h4>Für uns ist Surfen nicht nur eine Sportart.</h4>
+                <p>Surfen ist eine Leidenschaft, Surfen ist Freundschaft, Surfen ist 
+                    Freiheit und Surfen kann Dein Leben völlig auf den Kopf stellen. 
+                    Dir geht es ähnlich? Dann komm in unser Intermediate Surfcamp in 
+                    Nordspanien und genieße einen Urlaub voll mit guten Wellen, 
+                    traumhaften Stränden, 
+                    netten neuen Leuten und einer Menge Spaß.</p>
+                <button>Mehr zu Camp & Team</button>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="#">Datenschutzerklärung</a>
+            <a href="#">Impressum</a>
+            <p>© Layback 2023</p>
+        </footer>
+    </div>
+    
     
 </body>
 <script src="./ressources/script.js" defer></script>

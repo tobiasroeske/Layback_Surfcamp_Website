@@ -1,3 +1,24 @@
+const menuButton = document.getElementById('dropdown-btn');
+const menuList = document.getElementById('dropdown-list');
+const surfcampOptions = document.getElementById('surfcamps');
+
+let click = 0;
+menuButton.addEventListener('click', () => {
+   
+    if (click === 0) {
+        menuList.style.display = 'flex';
+        click++;
+    } else if (click === 1) {
+        menuList.style.display = 'none';
+        document.getElementById('camp-options').style.display = 'none';
+        click = 0;
+    }
+});
+
+surfcampOptions.addEventListener('mouseenter', () => {
+    document.getElementById('camp-options').style.display = 'block';
+});
+
 const blogImage = document.getElementById('blog-image');
 const blogLink = document.getElementById('blog-link');
 
