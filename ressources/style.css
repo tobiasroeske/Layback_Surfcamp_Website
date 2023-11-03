@@ -253,29 +253,27 @@ p {
 }
 
 .intermediate, .spotguiding, .unterkunft {
-    width: 32%;
     display: flex;
-    align-items: flex-end;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.intermediate {
-    background-image: url(./images/index/Intermediate-Surfcamp-Block-min-e1673359846108.jpg);
-}
-
-.spotguiding {
-    background-image: url(./images/index/Banner-Foto-min-1.jpg);
-}
-
-.unterkunft {
-    background-image: url(./images/index/Pipe.jpg);
-}
-
-.surfcamp-boxes h3 {
+    justify-content: flex-end;
+    align-items: flex-start;
     position: relative;
+    flex-direction: column;
+    width: 32%;
+    height: auto;
+}
+
+
+.intermediate img, .spotguiding img, .unterkunft img {
+    width: 100%;
+    height: 32rem;
+    object-fit: cover;
+    filter: brightness(85%);
+}
+
+
+.intermediate h3, .spotguiding h3, .unterkunft h3 {
     font-family: 'PT Serif', serif;
+    position: absolute;
     color: #fff;
     font-size: 2.5rem;
     margin-left: 2.5rem;
